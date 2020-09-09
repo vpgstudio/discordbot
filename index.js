@@ -48,7 +48,7 @@ const init = async () => {
   // here and everywhere else.
   const cmdFiles = await readdir("./commands/");
   client.logger.log(`Loading a total of ${cmdFiles.length} commands.`);
-  cmdFiles.forEach(f => {
+  cmdFiles.forEach((f) => {
     if (!f.endsWith(".js")) return;
     const response = client.loadCommand(f);
     if (response) console.log(response);
@@ -57,7 +57,7 @@ const init = async () => {
   // Then we load events, which will include our message and ready event.
   const evtFiles = await readdir("./events/");
   client.logger.log(`Loading a total of ${evtFiles.length} events.`);
-  evtFiles.forEach(file => {
+  evtFiles.forEach((file) => {
     const eventName = file.split(".")[0];
     client.logger.log(`Loading Event: ${eventName}`);
     const event = require(`./events/${file}`);
