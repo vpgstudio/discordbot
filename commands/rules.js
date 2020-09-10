@@ -12,8 +12,8 @@ exports.conf = {
 };
 
 exports.help = {
-  name: "say",
+  name: "rules",
   category: "Miscelaneous",
-  description: "It says what you whant.",
-  usage: "say [message]",
+  description: "Give you the rules",
+  usage: "rules",
 };
