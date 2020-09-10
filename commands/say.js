@@ -4,7 +4,7 @@ exports.run = async (client, message, args, level) => {
 
   message.delete().catch(O_o => {})
 
-  message.channel.send('<@' + message.author.id + '> sade: ' + sayMessage)
+  message.channel.send('<@' + message.author.id + '> said: ' + sayMessage)
 }
 
 exports.conf = {
