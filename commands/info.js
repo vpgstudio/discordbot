@@ -2,7 +2,7 @@ exports.run = async (client, message, args, level) => {
   message.channel.send(
     '<@' +
       message.author.id +
-      '> Here you go, (https://vpgstudio.com/), or (https://projects.vpgstudio.com/discord/adin-bot)'
+      '> Here you go, (https://vpgstudio.com/), or (https://projects.vpgstudio.com/about/discord/adin-bot)'
   )
 }
 
