@@ -1,6 +1,6 @@
 exports.run = async (client, message, args, level) => {
   message.channel.send(
-    "The rules?? They are in the rules channel <@" + message.author.id + ">"
+    "The rules?? They are in the rules channel <@" + message.author.id + ">!!"
   );
 };
 
