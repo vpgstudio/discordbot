@@ -9,7 +9,7 @@ exports.run = (client, message, args, level) => { // eslint-disable-line no-unus
 • Uptime     :: ${duration}
 • Users      :: ${client.users.size.toLocaleString()}
 • Servers    :: ${client.guilds.size.toLocaleString()}
-• Channels   :: ${client.channels.size.toLocaleString();
+• Channels   :: ${client.channels.size.toLocaleString()});
 };
 
 exports.conf = {
