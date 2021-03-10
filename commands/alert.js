@@ -1,6 +1,6 @@
 exports.run = async (client, message, args, level) => {
   const sayMessage = args.join(" ");
-  const channel = client.channels.find("name", "notic");
+  const channel = client.channels.find("name", "announcemnts");
   channel.send("@everyone " + sayMessage);
 };
 
