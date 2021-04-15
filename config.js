@@ -1,6 +1,6 @@
 const config = {
   // Bot Owner, level 10 by default. A User ID. Should never be anything else than the bot owner's ID.
-  "ownerID": ["mackandev#9505", "Pajsen#9263"],
+  "ownerID": "762671330385985536",
 
   // Bot Admins, level 9 by default. Array of user ID strings.
   "admins": [],
